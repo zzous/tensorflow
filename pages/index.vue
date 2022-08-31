@@ -1,7 +1,7 @@
 <template>
   <div>
     <u>
-      <li>모듈 사용하기</li>
+      <li><nuxt-link to="/useModules/image">모듈 사용하기</nuxt-link></li>
     </u>
   </div>
 </template>
