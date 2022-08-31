@@ -1,7 +1,8 @@
 <template>
   <div>
     <h1>모델 사용하기 ( mobilenet / coco-ssd )</h1>
-    <div><a href="https://github.com/tensorflow/tfjs-models/tree/master/mobilenet" target="_blank">https://github.com/tensorflow/tfjs-models/tree/master/mobilenet</a></div>
+    <div>mobilenet : <a href="https://github.com/tensorflow/tfjs-models/tree/master/mobilenet" target="_blank">https://github.com/tensorflow/tfjs-models/tree/master/mobilenet</a></div>
+    <div>coco-ssd : <a href="https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd" target="_blank">https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd</a></div>
     <div>
       <img src="/images/bird.jpg" alt="" @click="getPredictions">
       <img src="/images/dog.jpg" alt="" @click="getPredictions">
