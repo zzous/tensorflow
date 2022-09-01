@@ -37,10 +37,10 @@
 
 <script>
 // import * as tf from '@tensorflow/tfjs';
-const mobilenet = require('@tensorflow-models/mobilenet');
-const cocoSsd = require('@tensorflow-models/coco-ssd');
-const backend = require('@tensorflow/tfjs-backend-webgl');
-const cpu = require('@tensorflow/tfjs-backend-cpu');
+// const mobilenet = require('@tensorflow-models/mobilenet');
+// const cocoSsd = require('@tensorflow-models/coco-ssd');
+// const backend = require('@tensorflow/tfjs-backend-webgl');
+// const cpu = require('@tensorflow/tfjs-backend-cpu');
 // const mobilenet = require('@tensorflow-models/mobilenet'); ;
 export default ({
   name: 'MODULEIMAGE',
@@ -65,15 +65,15 @@ export default ({
   },
   methods: {
     async getModel () {
-      this.loading = true;
-      this.mobilenetModel = await mobilenet.load();
-      this.cocoSsdModel = await cocoSsd.load();
-      this.loading = false;
-      // console.log('# getModel', this.model, mobilenet.load());
+      // this.loading = true;
+      // this.mobilenetModel = await mobilenet.load();
+      // this.cocoSsdModel = await cocoSsd.load();
+      // this.loading = false;
+      // // console.log('# getModel', this.model, mobilenet.load());
     },
     async getPredictions (event) {
-      if (this.mobilenetModel) { this.predictionsMobilenet = await this.mobilenetModel.classify(event.target); }
-      if (this.cocoSsdModel) { this.predictionsCocoSsd = await this.cocoSsdModel.detect(event.target); }
+      // if (this.mobilenetModel) { this.predictionsMobilenet = await this.mobilenetModel.classify(event.target); }
+      // if (this.cocoSsdModel) { this.predictionsCocoSsd = await this.cocoSsdModel.detect(event.target); }
     }
   }
 });
