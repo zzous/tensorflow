@@ -4,10 +4,10 @@
     <div>mobilenet : <a href="https://github.com/tensorflow/tfjs-models/tree/master/mobilenet" target="_blank">https://github.com/tensorflow/tfjs-models/tree/master/mobilenet</a></div>
     <div>coco-ssd : <a href="https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd" target="_blank">https://github.com/tensorflow/tfjs-models/tree/master/coco-ssd</a></div>
     <div>
-      <img src="/images/bird.jpg" alt="" @click="getPredictions">
-      <img src="/images/dog.jpg" alt="" @click="getPredictions">
-      <img src="/images/cow.jpg" alt="" @click="getPredictions">
-      <img src="/images/cat.jpg" alt="" @click="getPredictions">
+      <img src="/tensorflow/images/bird.jpg" alt="" @click="getPredictions">
+      <img src="/tensorflow/images/dog.jpg" alt="" @click="getPredictions">
+      <img src="/tensorflow/images/cow.jpg" alt="" @click="getPredictions">
+      <img src="/tensorflow/images/cat.jpg" alt="" @click="getPredictions">
     </div>
     <!-- <div>{{ predictions }}</div> -->
     <div v-if="loading">loading...</div>
