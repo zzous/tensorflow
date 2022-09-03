@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{455:function(n,e,t){"use strict";t.r(e);var l={name:"IndexPage"},o=t(47),component=Object(o.a)(l,(function(){var n=this._self._c;return n("div",[n("u",[n("li",[n("nuxt-link",{attrs:{to:"/useModules/image"}},[this._v("모듈 사용하기")])],1)])])}),[],!1,null,null,null);e.default=component.exports}}]);

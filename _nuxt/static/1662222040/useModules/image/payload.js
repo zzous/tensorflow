@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/useModules/image", {data:[{}],fetch:{},mutations:void 0});
